@@ -1,0 +1,85 @@
+p {
+    color: rgb(0, 0, 0);
+    size: 50px;
+    width: 600px;
+    /* 幅を変更 */
+    height: 50px;
+    padding: 20px;
+    /* 内側の余白を追加 */
+    margin: 0 auto;
+    /* 左右のマージンを自動で調整して中央に揃える */
+    text-align: center;
+    /* 中央揃え */
+}
+img{
+    opacity: 1.0;
+    width: 200px;
+    height: 200px;
+}
+.gazou {
+    text-align: center;
+}
+ 
+ 
+body {
+    background-color: rgba(0, 0, 0, 0.5); /* 白色の背景を半透明にする */
+    background-image: url('images/美女やジュ２.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1.0; /* 透明度を調整する値（0.0から1.0の範囲） */
+}
+ 
+h3 {
+    color: rgb(0, 0, 0);
+}
+ 
+.tables td {
+    border-radius: 2em;
+}
+td img{
+    border-radius: 2em;
+}
+td:hover img{
+    box-shadow: 3px 3px 3px greenyellow;
+ 
+}
+td{
+    padding: 10px 10px;
+}
+tr{
+    text-align: center;
+}
+.tables{
+    width: 900px;
+    height: auto;
+    text-align: center;
+}
+ 
+.social-icon {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+ 
+.social-icon div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+}
+ 
+.social-icon div a {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+}
+ 
